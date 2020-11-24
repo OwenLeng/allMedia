@@ -1,0 +1,119 @@
+
+.side-content-box {
+    width: 35%;
+    /* position: relative; */
+    /* position: right; */
+    float: right;
+    /* background-color: rgba(165, 157, 212, 0.4); */
+}
+
+.left-fix-box {
+    width: 50px;
+    height: 200px;
+    left: -55px;
+    top: 350px;
+    position: absolute;
+    background-color: rgba(109, 173, 123, 0.815);
+}
+
+.right-fix-box {
+    width: 50px;
+    height: 100px;
+    /* left: 1205px;
+    top: 500px; */
+    right: 40px;
+    bottom: 100px;
+    /* position: absolute; */
+    position: fixed;
+    /* background-color: rgba(161, 108, 57, 0.815); */
+}
+
+
+/**************************************************/
+
+.column-box {
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.column-title-box {
+    border-top: 2px solid brown;
+    height: 40px;
+    line-height: 40px;
+}
+
+.column-title {
+    border-left: 4px solid brown;
+    padding-left: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #222;
+}
+
+.col-more {
+    float: right;
+    color: brown;
+    font-size: 10pt;
+}
+
+.search-fix{
+    padding-left: 20px;
+
+}
+
+.col-more:hover {
+    text-decoration: underline;
+}
+
+.col-card {
+    height: 90px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.col-img {
+    float: left;
+    width: 100px;
+    height: 80px;
+}
+
+.col-container {
+    padding-left: 110px;
+}
+
+.col-title {
+    display: block;
+    height: 60px;
+    font-size: 11pt;
+}
+
+.col-title a {
+    color: #333;
+}
+
+.col-title a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+.col-tail {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 9pt;
+    color: #666;
+}
+
+
+/*********************************/
+a, button {
+    cursor: pointer;
+}
+.search-box {margin-top:15px;}
+.search input{float:left; width:288px; height:28px;padding-left:33px;
+    background:url(../../image/Comma/icon_bar.png) no-repeat 0 -329px; 
+    border:1px solid #bd0509;}
+.search a{float:left; width:65px; height:28px;line-height:28px;text-align:center;color:#fff;font-size:14px;background:#bd0509; border:1px solid #bd0509;}
+.search a:hover{color:#fff;text-decoration:none;}
+.search-range {float:right;font-size:16px;margin-bottom:25px;}
+.search-list dt{margin-bottom:10px;}
